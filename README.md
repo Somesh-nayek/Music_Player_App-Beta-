@@ -1,13 +1,12 @@
-# Music Player UI
+# Music Player UI  
 Welcome to the Music Player UI repository! This sleek and user-friendly music player interface is designed to enhance your audio playback experience. Whether you're a developer integrating it into a larger application or an end user looking for an intuitive music player, our Music Player UI has you covered.
 It is an android application which is developed using Kotlin language over Jetpack Compose libraries.Currently it is only the UI with the proper achitecture so designed to as accept ant data source whether it is local or remote
 
 # Table of Contents
 [Features](#features)  
-[Demo](#Demo) 
+[Demo Video](#Demo)
 [Installation-guidelines](Installation)    
 [Clone into your VCS](#Clone)    
-[Directory](#directory)  
 [Dependencies Needed](#dependencies)  
 [Screenshots of UI](#screenshots)   
 [Learn how to contribute to this project](#contribution-guidelines)   
@@ -68,7 +67,7 @@ Follow these steps to install and run [Music_Player]:
 
 1. **Clone the repository:**
 
-  [Click to go to clone](#Clone)
+  [Click to go to clone](#Clone)  
 2.**Open the project in Android Studio**  
 3.**Launch Android Studio**.  
 4.**Select "Open an existing Android Studio project.**  
@@ -97,26 +96,14 @@ Follow these steps to clone the repository and get the project running on your l
    ```bash
    cd /path/to/destination
 3.Clone the repository by running the following command:
-    git clone https://github.com/Somesh-nayek/Music-PLayer-App-Beta.git
+    git clone https://github.com/Somesh-nayek/Music_Player_App-Beta-.git
 
-
-
-# Change into the project directory
-<a name="directory"></a>
-cd music-player-ui
 
 # Install dependencies
 <a name="dependencies"></a>
 Usage
 [Explain how users can use your Music Player UI. Include any configuration settings, usage examples, or code snippets.]
 
-javascript
-Copy code
-// Example code snippet
-const musicPlayer = new MusicPlayer({
-  playlist: [...],
-  autoplay: true,
-});
 # Screenshots
 <a name="screenshots"></a>
 [Include screenshots or images of your Music Player UI to give users a visual preview.]
@@ -124,7 +111,64 @@ const musicPlayer = new MusicPlayer({
 # Contributing
 
 <a name="contribution-guidelines"></a>
-[Explain how others can contribute to your project. Include guidelines for submitting bug reports, feature requests, or pull requests.]
+We welcome contributions from the community! If you're interested in contributing to [Music PLayer], please take a moment to review the following guidelines.
+
+## Code of Conduct
+
+Please read and adhere to our [Code of Conduct](CODE_OF_CONDUCT.md) to ensure a positive and inclusive environment for everyone.
+
+## How to Contribute
+
+1. **Fork the Repository:**
+   - Fork the [repository](https://github.com/Somesh-nayek/Music_Player_app-Beta) on GitHub.
+   - Clone your forked repository to your local machine:
+
+     ```bash
+     git clone https://github.com/Somesh-nayek/Music_Player_app-Beta.git
+     ```
+
+2. **Create a Branch:**
+   - Create a new branch for your contribution:
+
+     ```bash
+     git checkout -b feature/your-feature
+     ```
+
+   Please use a descriptive branch name.
+
+3. **Make Changes:**
+   - Make your desired changes or add new features.
+
+4. **Test Your Changes:**
+   - Before submitting a pull request, ensure that your changes work as expected.
+
+5. **Commit Your Changes:**
+   - Commit your changes with a clear and concise commit message:
+
+     ```bash
+     git commit -m "Add your meaningful commit message here"
+     ```
+
+6. **Push to Your Fork:**
+   - Push your changes to your forked repository:
+
+     ```bash
+     git push origin feature/your-feature
+     ```
+
+7. **Submit a Pull Request:**
+   - Open a pull request on the [original repository](https://github.com/Somesh-nayek/MUsic_Player_App-Beta) explaining your changes.
+
+## Code Style
+
+Please follow our [coding style guide](CONTRIBUTING.md) to maintain consistency in the codebase.
+
+## Reporting Issues
+
+If you encounter any issues or have suggestions for improvement, please open an [issue](https://github.com/Somesh-nayek/Music-PLayer_App-Beta/issues).
+
+Thank you for your contribution!
+
 
 # License
 [Specify the license under which your Music Player UI is distributed. For example, MIT License, Apache License, etc.]
